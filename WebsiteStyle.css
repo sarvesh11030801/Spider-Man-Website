@@ -1,0 +1,12 @@
+.body{
+    background-image:url("Images/Spider-Man\ Spiderverse.jpg");
+    background-repeat:no-repeat;
+}
+
+h2{
+    background: linear-gradient(90deg, rgba(253,29,29,1) 14%, rgba(252,176,69,1) 70%);
+    padding: 10px 55px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}

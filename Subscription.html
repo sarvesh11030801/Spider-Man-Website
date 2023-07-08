@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel = "stylesheet" href = "Subscriptionstyle.css">
+    </head>
+    <body>
+        <div class = "container">
+            <form action = "" method = "get">
+                <h1>Payment Form</h1>
+                <h1>Contact Information</h1>
+                <p>Name: <input type = "text" name = "name" placeholder = "Peter Parkar" required></p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <p>Male<input type = "radio" name = "gender" id = "male"> Female<input type = "radio" name = "gender" id = "female"></p>
+                </fieldset>
+                <p>Address: <textarea name = "address" id = "address" cols = "30" rows = "10" placeholder = "Enter Your Address"></textarea></p>
+                <p>Email: <input type = "email" name = "email" id = "email" placeholder = "peterparkar@gmail.com"</p>
+                <p>Pin Code: <input type = "number" name = "pincode" id = "pincode" placeholder = "123456"</p>
+                <h1>Payment Information</h1>
+                <p>Card Type:
+                    <select name = "cardtype" id = "cardtype">
+                        <option value = "">Select A Card Type</option>
+                        <option value = "visa">Visa</option>
+                        <option value = "rupay">Rupay</option>
+                        <option value = "mastercard">Master Card</option>
+                    </select>
+                    </p>
+                    <p>
+                        Card Number: <input type = "number" name = "cardnumber" id = "cardnumber" placeholder = "1111-2222-3333-4444">
+                    </p>
+                    <p>
+                        Expiration Date: <input type = "date" name = "expirationdate" id = "expirationdate" placeholder = "dd-mm-yyyy">
+                    </p>
+                    <p>
+                        CVV: <input type = "password" name = "cvv" id = "cvv" placeholder = "123">
+                    </p>
+                    <input type = "submit" value = "Pay Now">
+
+            </form>
+        </div>
+    </body>
+</html>
